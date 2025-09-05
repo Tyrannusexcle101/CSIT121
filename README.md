@@ -1,5 +1,5 @@
 # CSIT121 Fall Class 2025
-Overview of my assignments and practice for CSIT 121
+Overview of my assignments and practice for CSIT 121.
 
 <h1>List of my Assignments</h1>
 
