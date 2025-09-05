@@ -2,7 +2,7 @@
 
 <h1>List of my Assignments</h1>
 
-<p><a href="https://tyrannusexcle101.github.io/CSIT121/">Click here to see the published versions. </a></p>
+<p><a href="https://tyrannusexcle101.github.io/CSIT121/">Come and see all of my labs. </a></p>
 
 <h2>Practices</h2>
 
