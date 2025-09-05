@@ -8,11 +8,11 @@ Overview of my assignments and practice for CSIT 121
 <h2>Practice Files</h2>
 
 <ol>
-  <li> href = "practice/demo.html"> Practice File</a></li>
+  <li><a href = "practice/demo.html"> Practice File</a></li>
 </ol>
 
 <h2>Lab Assignment</h2>
 
 </ol>
- <li> href = "Lab01/aboutme.html" target="_blank">Lab 01 </la></li>
+ <li><a href = "Lab01/aboutme.html" target="_blank">Lab 01 </la></li>
  </ol>
