@@ -17,6 +17,7 @@ Overview of my assignments and practice for CSIT 121.
 
 <ol>
 <li><a href = "Lab01/aboutme.html">Lab 01</a></li>
+<li><a href = "Lab02/index.html">Lab 02</a></li>
 <ol>
 
 <h2>Class Work</h2>
