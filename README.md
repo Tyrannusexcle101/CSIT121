@@ -10,6 +10,7 @@ Overview of my assignments and practice for CSIT 121.
 <ol>
 <li><a href = "Practice/demo.html">Demo</a></li>
 <li><a href = "Practice/textplay.html">Text Structure</a></li>
+<li><a href = "Practice/HTMLPractice.html">HTML Discussion</a></li>
 </ol>
 
 <h2>Lab Assignment</h2>
