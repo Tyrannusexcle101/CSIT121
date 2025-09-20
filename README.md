@@ -18,7 +18,7 @@ Overview of my assignments and practice for CSIT 121.
 <ol>
 <li><a href = "Lab01/aboutme.html">Lab 01</a></li>
 <li><a href = "Lab02/index.html">Lab 02</a></li>
-<li><a href = "https://emailccbcmd-my.sharepoint.com/:u:/g/personal/ma1184266_email_ccbcmd_edu/ESs45xnN-xNCkv110vy9Q28BhMesihr9iFe9I6tDnYkgAA?email=vnoone%40ccbcmd.edu&e=g4FS8z)">Lab 03</a></li>
+<li><a href = "Lab03/index.html"</a></li>
 <ol>
 
 <h2>Class Work</h2>
