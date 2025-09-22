@@ -11,7 +11,7 @@ Overview of my assignments and practice for CSIT 121.
 <li><a href = "Practice/demo.html">Demo</a></li>
 <li><a href = "Practice/HTMLPractice.html">HTML Discussion</a></li>
 <li><a href = "Practice/CSSPractice.html">CSS Practice</a></li>
-<li><a href = "Practice/http://127.0.0.1:3000/Splash-Page.html">Splash-Page</a></li>
+<li><a href = "Practice/Splash-Page.html">Splash-Page</a></li>
 </ol>
 
 <h2>Lab Assignment</h2>
