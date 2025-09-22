@@ -31,4 +31,5 @@ Overview of my assignments and practice for CSIT 121.
 <h2>Extras</h2>
 <ol>
   <li><a href = "Lab03/style.css">Style spreadsheet</a></li>
+  <li><a href = "Practice/style.css">Bug spreadsheet</a></li>
 </ol>
