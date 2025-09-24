@@ -34,4 +34,5 @@ Overview of my assignments and practice for CSIT 121.
 <ol>
   <li><a href = "Lab03/style.css">Style spreadsheet</a></li>
   <li><a href = "Practice/style.css">Bug spreadsheet</a></li>
+  <li><a href = "Lab04/style.css">Visual_Media spreadsheet</a></li>
 </ol>
