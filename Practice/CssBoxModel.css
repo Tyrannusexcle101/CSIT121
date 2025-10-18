@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: lightgreen;
+}
+
+/* Float the second box to the right */
+#box2 {
+    float: right;
+    background-color: yellow;
+}
+
+/* Position the first box */
+#box1 {
+    position: absolute;
+    top: 50px;
+    left: 325px;
+    background-color: lightblue;
+}
