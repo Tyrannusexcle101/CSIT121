@@ -22,7 +22,7 @@ Overview of my assignments and practice for CSIT 121.
 <li><a href = "Lab02/index.html">Lab 02</a></li>
 <li><a href = "Lab03/index.html">Lab 03</a></li>
 <li><a href = "Lab04/Visual_Media.html">Lab 04</a></li>
-
+<li><a href = "Lab05/index.html">Lab 05</a></li>
 <ol>
 
 <h2>Class Work</h2>
