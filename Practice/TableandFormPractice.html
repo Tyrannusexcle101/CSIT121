@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fall Semester Schedule</title>
+  <link rel="stylesheet" href="Tablestyle.css">
+</head>
+<body>
+
+    <h1>Class Schedule</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+                <th>Teacher</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Math 125</td>
+                <td>Finite Mathematics</td>
+                <td>Jignasa Rami</td>
+            </tr>
+            <tr>
+                <td>CSIT 142</td>
+                <td>Intro Management</td>
+                <td>Paulette Comet</td>
+            </tr>
+            <tr>
+                <td>CSIT 121</td>
+                <td>Web Standards</td>
+                <td>Veronica Noone</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Feedback</h2>
+  <form>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Bob" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="course">Course You’re Commenting On:</label>
+    <select id="course" name="course">
+      <option value="">--Select a course--</option>
+      <option value="MATH 125">MATH 125 - Finite Mathematics</option>
+      <option value="CSIT 121">CSIT 121 - Web Standards</option>
+      <option value="CSIT 142">CSIT 142 - Info Management</option>
+    </select>
+
+    <label for="comments">Your Comments:</label>
+    <textarea id="comments" name="comments" maxlength="1600" rows="6" placeholder="Share your thoughts..." required></textarea>
+
+    <input type="submit" value="Submit Feedback">
+  </form>
+
+</body>
+</html>
