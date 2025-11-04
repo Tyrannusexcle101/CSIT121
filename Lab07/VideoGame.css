@@ -1,0 +1,80 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #ced7d1;
+      margin: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 1;
+        display: flex;
+        gap: 30px;
+    }
+
+    nav ul li a {
+        color: red;
+        padding: 20px;
+        display: block;
+    }
+
+    nav ul li a:hover {
+        background-color:#36accd
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    table, th, td{
+        border: 2px solid #5515bd
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #7f18c8;
+      text-align: center;
+    }
+
+    form {
+      background-color: #e17d36;
+      padding: 20px;
+      border: 1px solid #4d2ea8;
+      max-width: 600px;
+    }
+
+    caption {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #35a052;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #ce1f51;
+      color: rgb(154, 51, 121);
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #36accd;
+    }
+
+
+    /* Style body rows with alternating or custom colors */
+table tbody tr:nth-child(1) { background-color: #12da4e; } /* 1 Tier */
+table tbody tr:nth-child(2) { background-color: #12c8e0; } /* 2 Tier */
+table tbody tr:nth-child(3) { background-color: #c0e312; } /* 3 Tier */
+table tbody tr:nth-child(4) { background-color: #e09a0f; } /* 4 Tier */
+table tbody tr:nth-child(5) { background-color: #ae3f37; } /* 5 Tier */

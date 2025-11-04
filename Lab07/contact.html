@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Contact</title>
+   <link rel="stylesheet" href="VideoGame.css">
+   </head>
+   <body>
+    <nav>
+        <ul>
+            <li><a href="tierlist.html">Tier List</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="comment">Feedback:</label>
+            <textarea id="comment" name="comment" rows="4" cols="40" placeholder="Enter your thoughts..."></textarea>
+        </div>
+
+        <fieldset>
+            <legend>Which tier do you agree with most?</legend>
+            <input type="radio" id="tier1" name="favTier" value="1">
+            <label for="tier1">Tier 1</label><br>
+            <input type="radio" id="tier2" name="favTier" value="2">
+            <label for="tier2">Tier 2</label><br>
+            <input type="radio" id="tier3" name="favTier" value="3">
+            <label for="tier3">Tier 3</label><br>
+            <input type="radio" id="tier4" name="favTier" value="4">
+            <label for="tier4">Tier 4</label><br>
+            <input type="radio" id="tier5" name="favTier" value="5">
+            <label for="tier5">Tier 5</label><br>
+        </fieldset>
+
+        <div class="form-group">
+      <label for="favGame">Favorite PS5 Game:</label>
+      <select id="favGame" name="favGame">
+        <option value="Ghost of Tsushima">Ghost of Tsushima</option>
+        <option value="God of War: Ragnarok">God of War: Ragnarok</option>
+        <option value="The Last of Us Part II">The Last of Us Part II</option>
+        <option value="Horizon: Zero Dawn">Horizon: Zero Dawn</option>
+        <option value="Ghost of Yotei">Ghost of Yotei</option>
+        <option value="God of War (2018)">God of War (2018)</option>
+        <option value="Marvel's Spider-Man 2">Marvel's Spider-Man 2</option>
+        <option value="Brawlhalla">Brawlhalla</option>
+        <option value="INSIDE">INSIDE</option>
+        <option value="Call of Duty: Modern Warfare (2019)">Call of Duty: Modern Warfare (2019)</option>
+        <option value="Grand Thft Auto 5">Grand Theft Auto 5</option>
+        <option value="Stray">Stray</option>
+        <option value="Star Wars: Jedi Survivor">Star Wars: Jedi Survivor</option>
+        <option value="Star Wars: Outlaws">Star Wars: Outlaws</option>
+        <option value="A Plague Tale: Innocence">A Plague Tale: Innocence</option>
+        <option value="A Plague Tale: Requiem">A Plague Tale: Requiem</option>
+        <option value="Red Dead Redemption II">Red Dead Redemption II</option>
+        <option value="The Last of Us (2013)">The Last of Us (2013)</option>
+        <option value="Hogwarts Legacy">Hogwarts Legacy</option>
+        <option value="Lego Dimensions">Lego Dimensions</option>
+        <option value="The Lego Movie: VideoGame">The Lego Movie: VideoGame</option>
+        <option value="Sonic Forces">Sonic Forces</option>
+        <option value="The Callisto Protocol">The Callisto Protocol</option>
+        <option value="Cyberpunk">Cyberpunk</option>
+        <option value="Uncharted 4: A thief's End">Uncharted 4: A thief's End</option>
+         <option value="Assassin's Creed: Unity">Assassin's Creed: Unity</option>
+          <option value="Marvel's Spder-Man: Miles Morales">Marvel's Spider-Man: Miles Morales</option>
+           <option value="Red Dead Redemption I">Kingdom Hearts III</option>
+      </select>
+    </div>
+
+    <button type="submit">Submit</button>
+    
+</form>
+   </body>
