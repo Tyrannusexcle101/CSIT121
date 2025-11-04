@@ -13,7 +13,7 @@ Overview of my assignments and practice for CSIT 121.
 <li><a href = "Practice/CSSPractice.html">CSS Practice</a></li>
 <li><a href = "Practice/Splash-Page.html">Splash-Page</a></li>
 <li><a href = "Practice/BoxModelPractice.html">Box-Model</a></li>
-<li><a href = "Practice/TableandFormPractice.html">Fall-Semester</li>
+<li><a href = "Practice/TableandFormPractice.html">Fall-Semester</a></li>
 </ol>
 
 <h2>Lab Assignment</h2>
@@ -25,6 +25,7 @@ Overview of my assignments and practice for CSIT 121.
 <li><a href = "Lab04/Visual_Media.html">Lab 04</a></li>
 <li><a href = "Lab05/index.html">Lab 05</a></li>
 <li><a href = "Lab06/KhanAcademy.html">Lab 06</a></li>
+<li><a href = "Lab07/tierlist.html">Lab 07</a></li>
 <ol>
 
 <h2>Class Work</h2>
@@ -39,5 +40,6 @@ Overview of my assignments and practice for CSIT 121.
   <li><a href = "Practice/style.css">Bug spreadsheet</a></li>
   <li><a href = "Lab04/style.css">Visual_Media spreadsheet</a></li>
   <li><a href = "Practice/CssBoxModel.css"> BoxModel spreadsheet</a></li>
-  <li><a href = "Practice/Tablestyle.css"> Table spreadsheet</li>
+  <li><a href = "Practice/Tablestyle.css">Table spreadsheet</a></li>
+  <li><a href = "Lab07/contact.html">Videogame Contact</a></li>
 </ol>
