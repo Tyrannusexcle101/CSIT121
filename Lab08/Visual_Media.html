@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visual-Media</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Favorite Shows, Movies, and Video Games</h1>
+      <ul>
+        <li><a href="Imperial-Stormtrooper.html">Imperial Stormtrooper</a></li>
+        <li><a href="Ellie.html">The Last of Us</a></li>
+        <li><a href="ValarMorghulis.html">Valar Morghulis</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Trigger -->
+ <button onclick="openNav()" aria-label="Open Menu" style="font-size:30px;cursor:pointer; background:none; border:none;">☰</button>
+
+  <main>
+    <p>This is an updated version of my Lab 04 project, now called Lab 08, that showcases different images with their own page.
+       Each page includes an image description, image file type, and why I chose those images.
+       Supported formats include GIF, PNG, JPG, and MP4 for videos. It also includes a full-screen 
+       overlay which makes an interactive menu.
+    </p>
+  </main>
+
+  <!-- Overlay Navigation -->
+  <div id="myNav" class="overlay">
+    <!-- Close Button -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Close Menu">&times;</a>
+
+    <!-- Overlay Content -->
+    <div class="overlay-content">
+      <a href="Visual_Media.html">Home</a>
+      <a href="Imperial-Stormtrooper.html">Imperial Stormtrooper</a>
+      <a href="ValarMorghulis.html">Valar Morghulis</a>
+      <a href="Ellie.html">Ellie</a>
+    </div>
+  </div>
+
+  <!-- JavaScript for Overlay -->
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+</body>
+</html>
