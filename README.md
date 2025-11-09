@@ -27,6 +27,7 @@ Overview of my assignments and practice for CSIT 121.
 <li><a href = "Lab06/KhanAcademy.html">Lab 06</a></li>
 <li><a href = "Lab07/tierlist.html">Lab 07</a></li>
 <li><a href = "Lab08/Visual_Media.html">Lab 08</a></li>
+<li><a href = "Lab09/bonus.html">Lab 09</a></li>
 <ol>
 
 <h2>ClassWork</h2>
