@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reads the XML data using JavaScript</title>
+
+    <!-- CSS -->
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #b76218;
+        }
+
+        th {
+            background-color: #23c035;
+            color: rgb(62, 29, 154);
+        }
+
+        .button {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            border: 4px solid rgb(211, 12, 151);
+            background: rgba(4, 145, 192, 0.5);
+            color: rgb(217, 8, 8);
+            outline: none;
+            border-radius: 30px;
+            font-size: 30px;
+            width: 500px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            color: black;
+            background: white;
+        }
+
+        .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+    </style>
+
+    <!-- JavaScript -->
+    <script>
+        let tableVisible = false;
+
+        function toggleXMLTable() {
+            const button = document.getElementById("toggleButton");
+            const table = document.getElementById("employeeTable");
+
+            if (!tableVisible) {
+                // Load and show the table
+                let xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function () {
+                    if (this.readyState === 4 && this.status === 200) {
+                        let xmlDoc = this.responseXML;
+                        let tableHTML = `
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Title</th>
+                                <th>Division</th>
+                                <th>Building</th>
+                                <th>Room</th>
+                            </tr>`;
+                        let employees = xmlDoc.getElementsByTagName("employee");
+
+                        for (let i = 0; i < employees.length; i++) {
+                            tableHTML += `<tr>
+                                <td>${employees[i].getElementsByTagName("firstname")[0].textContent}</td>
+                                <td>${employees[i].getElementsByTagName("lastname")[0].textContent}</td>
+                                <td>${employees[i].getElementsByTagName("title")[0].textContent}</td>
+                                <td>${employees[i].getElementsByTagName("division")[0].textContent}</td>
+                                <td>${employees[i].getElementsByTagName("building")[0].textContent}</td>
+                                <td>${employees[i].getElementsByTagName("room")[0].textContent}</td>
+                            </tr>`;
+                        }
+
+                        table.innerHTML = tableHTML;
+                        tableVisible = true;
+                        button.textContent = "Close Employee Data";
+                    }
+                };
+                xmlhttp.open("GET", "employee.xml", true);
+                xmlhttp.send();
+            } else {
+                // Hide the table
+                table.innerHTML = "";
+                tableVisible = false;
+                button.textContent = "Get Employee Data";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <div class="button-container">
+    <button type="button" class="button" id="toggleButton" onclick="toggleXMLTable()">
+        Get Employee Data
+    </button>
+</div>
+
+        <br><br>
+        <table id="employeeTable"></table>
+    </main>
+</body>
+
+</html>
