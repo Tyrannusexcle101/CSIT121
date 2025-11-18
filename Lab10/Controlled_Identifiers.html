@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Controlled-Identifiers</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Controlled-Identifiers</h1>
+      <ul>
+        <li><a href="Controlled_Identifiers.html">What is it?</a></li>
+        <li><a href="Importance.html">Why is it Important?</a></li>
+        <li><a href="Uses.html">How is it used?</a></li>
+        <li><a href="Sources.html">Sources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Trigger -->
+  <button onclick="openNav()" aria-label="Open Menu" class="menu-btn">
+    ☰
+  </button>
+
+  <main>
+    <p>
+      A Controlled-Identifier is a document that contains cryptographic material. 
+      It lists service endpoints for the purposes of verifying cryptographic proofs. 
+      The proofs work by forming and interacting with the controller of an identifier. 
+      Controlled-Identifiers identify a subject and provide verification methods such as public keys.
+    </p>
+  </main>
+
+  <!-- Overlay Navigation -->
+  <div id="myNav" class="overlay">
+    <!-- Close Button -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Close Menu">&times;</a>
+
+    <!-- Overlay Content -->
+    <div class="overlay-content">
+      <a href="Controlled_Identifiers.html">Home</a>
+      <a href="Importance.html">Importance</a>
+      <a href="Uses.html">Uses</a>
+      <a href="Sources.html">Sources</a>
+    </div>
+  </div>
+
+  <!-- JavaScript for Overlay -->
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+</body>
+</html>
